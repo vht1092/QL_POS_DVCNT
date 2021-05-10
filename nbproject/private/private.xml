@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/web/WEB-INF/jsp/dongmay.jsp</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/TtHistaff.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/model/UserAccModel.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/TtDvcntLive.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/TtLogDvcnt.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/TtPosTempLive.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/controller/DownloadfileController.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/ListMcc.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/model/HistaffModel.java</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/web/WEB-INF/jsp/chitietposthemmoi.jsp</file>
+            <file>file:/D:/SOURCE/QL_POS_DVCNT_2/src/java/entity/UserAcc.java</file>
+        </group>
+    </open-files>
+</project-private>

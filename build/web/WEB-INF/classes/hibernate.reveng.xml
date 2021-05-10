@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+    <schema-selection match-schema="CCPS"/>
+    <table-filter match-name="USER_ACC"/>
+    <table-filter match-name="TT_HISTAFF"/>    
+    <table-filter match-name="LIST_MCC"/>
+    
+    <!--LIVE-->
+    <table-filter match-name="TT_DVCNT_LIVE"/>
+    <table-filter match-name="TT_POS_LIVE"/>
+<!--    <table-filter match-name="TT_POS_TEMP_LIVE"/>
+    <table-filter match-name="TT_LOG_DVCNT_LIVE"/>-->
+    
+    <!--TEST-->
+<!--    <table-filter match-name="TT_DVCNT"/>
+    <table-filter match-name="TT_POS"/>-->
+    <table-filter match-name="TT_POS_TEMP_LIVE"/>    
+    <table-filter match-name="TT_LOG_DVCNT"/>
+    
+</hibernate-reverse-engineering>

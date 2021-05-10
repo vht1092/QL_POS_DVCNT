@@ -1,0 +1,661 @@
+/*css bread-cum*/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #125198;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: yellow;
+    content: ">";
+}
+ul.breadcrumb li a {
+    color: yellow;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+/* end bread-cum*/
+* {
+    padding: 0;
+    margin: 0;
+    border: none;            
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{      
+    width: 100%;
+    background: -webkit-linear-gradient(top, #125198 30%, white 70%);
+    background: -moz-linear-gradient(#125198, white);
+}
+header{
+    width: 90%;
+    height: 100px;
+    color: white;
+    background-color: #002068;
+}
+.header-pos{
+    width: 90%;
+    height: 100px;
+    color: white;
+    background-color: #0C520A;
+}
+.header-lapdatpos{
+    width: 90%;
+    height: 100px;
+    color: white;
+    background-color: #0C520A;
+}
+header .dangxuat, .tennguoidung{
+    float: right;
+    font-size: 12px;
+    color: yellow;
+}
+header .dangxuat{
+    text-decoration: none;
+}
+header .dangxuat:hover{
+    text-decoration: underline;
+}
+header h2{
+    line-height: 60px;
+    width: 90%; 
+    float: right
+}
+.content{
+    background-color: white;
+    width: 92%;
+    height: 1300px; /*1450*/
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.content-pos{
+    background-color: white;
+    width: 92%;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 300px; 
+    border: 1px #C7C0C8;
+}
+.content-pos .table-apdungpos{
+    width: 50%; 
+    height: auto; 
+    margin-top: 10%;
+    box-shadow: 10px 10px 5px #F4F4F4;
+}
+table th{
+    background-color: #E3E3E6;
+    height: 25px;
+}
+table tr{
+    height: 30px
+}
+table, th, td{
+    border: 1px solid #F6F6F6;
+    border-collapse: collapse;
+}
+#ngaycap_gpkd, #thangcap_gpkd, #namcap_gpkd, #ngaycap_cmndnguoidaidien, #thangcap_cmndnguoidaidien, #namcap_cmndnguoidaidien{
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+table .submit{
+    width: 200px;
+    height: 40px;
+    float: right;
+    background-color: #0043D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.check_nhapPhiTheKhac{
+    width: 200px;
+    height: 12px;
+    float: right;
+    background-color: #0043D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table .guiduyet{
+    width: 150px;
+    height: 10px;
+    float: right;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+._guiduyet{
+    width: 200px;
+    height: 25px;
+    float: right;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+table .submit-pos{
+    width: 150px;
+    height: 40px;
+    background-color: #0043D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.submit-pos{
+    width: 100px;
+    height: 30px;
+    background-color: #0043D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submit-pos-cancel{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold
+}
+.submit-pos-cancel:hover{
+    text-decoration: underline;
+}
+table .exportthempos{
+    float: right;
+    width: 165px;
+    height: 15px;
+    background-color: #0043D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table .hoantat{
+    background-color: #074842;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    font-family: arial;
+    font-size: 13px;
+}
+table .hoantat center{
+    line-height: 40px;
+}
+input, select{
+    height: 20px;
+    border: 0.5px solid grey;
+    border-radius: 2px;
+}
+input:focus{
+    background-color: #D8F7FA;
+}
+
+select:focus{
+    background-color: #FFFEDF;
+}
+.thongso1{
+    background-color: #F3F3F3;
+}
+
+.thongso2{
+    background-color: #F9F9F9;
+}
+.luuy div{
+    margin-top: 10px;
+}
+.luuy div p{
+    margin-top: 5px;
+    color: grey;
+    font-style: italic;
+}
+.lapdatpos{
+    margin-top: 3%; 
+    width: 92.8%; 
+    font-size: 13px;
+    height: auto;
+    background-color: white;
+}
+.lapdatpos tr:hover{
+    background-color: #C2FFB1;
+}
+.lapdatpos .edit{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.lapdatpos .delete{
+    text-decoration: none;
+    background-color: #DB3347;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+}
+.lapdatpos .map{
+    text-decoration: none;
+    background-color: #FD2E0F;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.lapdatpos .map:hover{
+    text-decoration: underline;
+}
+.lapdatpos .editmap{
+    text-decoration: none;
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.lapdatpos .editmap:hover{
+    text-decoration: underline;
+}
+.lapdatpos .edit:hover{
+    text-decoration: underline;
+}
+.lapdatpos .delete:hover{
+    text-decoration: underline;
+}
+.verify{
+    background-color: green; 
+    color: white; 
+    padding: 4px; 
+    border-radius: 3px; 
+    height: 25px; 
+    cursor: pointer
+}
+.verify:hover{
+    text-decoration: underline;
+}
+.disabled{
+    background-color: #CCFFFF;
+}
+.warning{
+    font-size: 12px; 
+    color: red
+}
+.redcolumn{
+    color: red;
+}
+.label{
+    color: blue;
+}
+#table-loaithe{
+    margin-top: 2%;
+    width: 60%;
+}
+#table-loaithe th{
+    font-size: 12px;
+    background-color: #F5F5F5;
+}
+#table-loaithe th{
+    border: 1px solid;
+}
+#table-loaithe tr{
+    border: 1px solid;
+}
+#table-loaithe td{
+    border: 1px solid;
+}
+.thongtinlapdat{
+    width: 100%;
+    font-size: 14px;
+}
+.thongtinlapdat td, th{
+    border-right: 1px solid;
+}
+.thongtinlapdat tr:hover{
+    background-color: #D0F8D1;
+}
+.thongtinduyet{
+    width: 100%;
+    border: none;
+}
+.thongtinduyet .tr1{
+    background-color: #04580A; 
+    color: white; 
+    font-weight: bold;
+    border: none;
+}
+.thongtinduyet .tr2{
+    background-color: #D0F8D1;
+    border: none;
+}
+.thongtinduyet .tr2 td{
+    padding: 5px;
+    border: none;
+}
+.thongtinduyet .tr2 td textarea{
+    padding: 5px; 
+    font-size: 14px; 
+    border: 1px solid; 
+    border-radius: 5px
+}
+.pass{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 42px;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+_xacNhanBanGiao{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.xacNhanBanGiao{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 42px;
+    cursor: pointer;
+}
+.xacNhanBanGiao:hover{
+    text-decoration: underline;
+}
+
+.fail{
+    background-color: #BF0000;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 42px;
+    cursor: pointer;
+    width: 75px;
+}
+.fail:hover{
+    text-decoration: underline;
+}
+.chuyentiep{
+    color: green; 
+    font-weight: bold
+}
+.trave{
+    color: red;
+    font-weight: bold;
+}
+.danhan{
+    font-weight: bold;
+    color: blue;
+}
+.dangcho{
+    color: #C7C0C8;
+    font-weight: bold;
+}
+.soluong{
+    height: auto;
+    margin-top:-15%; 
+    width: 70%; 
+    border: 1px solid; 
+    font-size: 13px;
+    font-weight: bold
+}
+
+._dongmaydexuat{
+    height: auto;
+    border: 1px solid; 
+    font-size: 13px;
+    color: orangered;
+    font-weight: bold;
+    padding: 1%;
+}
+.number{
+    font-size: 12px;
+}
+.successAddPos{
+    color: orangered; 
+    font-weight: bold; 
+    font-size: 14px; 
+    font-style: italic
+}
+.quytrinhduyet{
+    height: 800px; 
+    background-color: white; 
+    width: 95%; 
+    padding-top: 2%
+}
+.table-quytrinhduyet{
+    height: auto; 
+    background-color: white; 
+    width: 95%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+#table-dropdown{
+    background-color: white; 
+    color: black; 
+    border: 1px solid;
+}
+#table-dropdown tr{
+    border: 1px solid;
+}
+#table-dropdown tr:hover{
+    background-color: #E3F2E1;
+}
+
+#table-dropdown td{
+    border: 1px solid;
+}
+
+.detail{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+}
+.detail:hover{
+    text-decoration: underline;
+}
+.rerset-form{
+    float: right; 
+    font-size: 12px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-color: #F5F5F5; 
+    padding: 4px; 
+    color: gray
+}
+#thaydoi{
+    margin-left: 10px; 
+    text-decoration: none; 
+    background-color: green; 
+    color: white; 
+    padding: 3px; 
+    border-radius: 3px; 
+    cursor: pointer
+}
+/*DROPDOWN MENU*/
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #125198;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #125198;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {background-color: #002068}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.reset{
+    float: right; 
+    font-size: 12px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-color: #F5F5F5; 
+    padding: 4px; 
+    color: gray
+}
+
+.guiduyet2{
+    width: 200px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.path{
+    color: red; 
+    font-style: italic; 
+    font-weight: bold
+}
+.formUpload{
+    font-weight: bold; 
+    background-color: green; 
+    color: white
+}
+
+.seri{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: blue;
+}
+.seri:hover{
+    text-decoration: underline;
+}
+.Copy_thongtinnguoidaidien{
+    font-size: 11px;
+    cursor: pointer;
+    background-color: green;
+    padding: 2px;
+    border-radius: 4px;
+    color: yellow;
+}
+.duyetthongso{
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    float: left;
+    margin-left: 10%;
+    padding: 0.5%;
+}
+.duyetthongso:hover{
+    text-decoration: underline;
+}

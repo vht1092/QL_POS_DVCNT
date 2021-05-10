@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.64.6)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=DW.WORLD)))</property>
+        <property name="hibernate.connection.username">ccps</property>
+        <property name="hibernate.connection.password">DbCCpsPr</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <mapping class="entity.UserAcc"/>
+        <mapping class="entity.TtPosTempLive"/>
+        <mapping class="entity.TtHistaff"/>
+        <mapping class="entity.TtLogDvcnt"/>
+        <mapping class="entity.ListMcc"/>
+        <mapping class="entity.TtDvcntLive"/>
+        <mapping class="entity.TtPosLive"/>
+        <!--    <mapping class="entity.TtDvcnt"/>
+        <mapping class="entity.TtPos"/>-->
+    </session-factory>
+</hibernate-configuration>

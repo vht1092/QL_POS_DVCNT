@@ -1,0 +1,52 @@
+input[type=text], input[type=password] {
+    width: 18%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #125198;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #033B20;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 200px;
+    height: 182px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}

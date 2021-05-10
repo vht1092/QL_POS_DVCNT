@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;            
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    background-color: white;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.content{
+    width: 70%;
+    height: 3700px;
+    text-align: center;
+    background-color: white;
+    padding-top: 3%;
+}
+.boldtext{
+    font-weight: bold;
+    width: 100%;
+}
+.floatRight{
+    float: right;
+}
+.floatLeft{
+    float: left;
+    font-size: 18px;
+    padding-top: 2%;
+}
+.text{
+    font-size: 18px;
+    padding-top: 1%;
+    text-align: left;
+}
+.table1{
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    padding-left: 6%;
+}
+.table1 tr, td{
+}
+.table1 tr{
+    width: 100%;
+}
+.title-export{
+    font-size: 20px;
+}
+.chxhcnvn{
+    margin-right: 5%;
+    font-size: 16px;
+    float: right
+}
+.scb{
+    font-size: 18px;
+}
+.ngaythangnam{
+    font-weight: normal;
+    font-style: italic;
+}
+#table-loaithe{
+    margin-top: 2%;
+    width: 70%;
+    border-collapse: collapse;
+}
+#table-loaithe th{
+    font-size: 14px;
+    background-color: #F5F5F5;
+}
+#table-loaithe th{
+    border: 1px solid;
+}
+#table-loaithe tr{
+    border: 1px solid;
+    height: 30px;
+}
+#table-loaithe td{
+    border: 1px solid;
+}
+.luuy{
+    font-style: italic;
+}
+.btnPrint{
+    font-size: 12px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 3px; 
+    padding: 5px;
+    position: fixed
+}
+.btnPrint:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: yellow
+}
+._btnPrint{
+    text-decoration: none;
+    font-size: 12px; 
+    background-color: blue; 
+    color: white; 
+    border-radius: 3px; 
+    padding: 5px;
+    position: fixed
+}
+._btnPrint:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: yellow
+}

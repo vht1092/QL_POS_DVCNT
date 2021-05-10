@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    margin: 0;
+    border: none;            
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btnPrint{
+    font-size: 18px; 
+    background-color: blue; 
+    color: white; 
+    border-radius: 3px; 
+    padding: 5px
+}
+.btnPrint:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: yellow
+}
